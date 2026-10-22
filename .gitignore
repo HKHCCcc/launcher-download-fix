@@ -1,0 +1,34 @@
+# Build output
+build/
+artifacts/
+
+# Local test workspace and logs
+work/
+*.bak
+*.bak.*
+*.log
+*.tmp
+
+# Local launcher/test samples
+PCL 正式版*/
+PCL/
+HMCL*/
+*.jar.original
+
+# Local IL analysis reference
+src/reference.xml
+
+# IDE and OS files
+.vs/
+.vscode/
+.idea/
+bin/
+obj/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Local website
+site/
